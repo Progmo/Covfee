@@ -6,6 +6,7 @@
 <Title> Start-up </title>
 <Style>
 body {
+background-color: rgb(153, 153, 142);
 Font- family: Monospace, Verdana;
 Font-size: 16px;
 Color: Grey, black;
@@ -15,12 +16,23 @@ Line-height: 1.0;
 
 .first-div {
 	box-shadow: 1px 1px 5px 3px grey;
+        background:dodger blue;
+
 }
 .crazy {
 font-family: sans-script;
 font-size: 20px;
 }
 
+.fixed { 
+position: fixed;
+bottom: 0;
+  right: 0;
+  width: 200px;
+  border: 4px solid green;
+  color: blue;
+  background-color: grey;
+}
 </Style>
 </Head>
 <Body>
@@ -33,6 +45,7 @@ Yes<br>
 The floor is made out of<br>
 <p class="crazy"> <span style="color:red;">F</span> <span style="color:orange">L</span> <span style="color:yellow;">O</span> <span style="color:green;">O</span> <span style="color:blue;"> R</span> </p>
 </div>
+
 <br><Footer> 
 <address>
 Written by <a href="mailto:webmaster@example.com">Johnathon Doesworth</a>.<br> 
@@ -42,6 +55,6 @@ Box 666, A-land<br>
 USA
 </address>
 </footer>
-
+<p class="fixed"> Check us out <a href=""> here </a> </p>
 </Body>
 <HTML>
