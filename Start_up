@@ -3,7 +3,12 @@
 <!DOCTYPE HTML>
 <HTML Lang="en:us">
 <Head>
-<meta charset="BIG5">=
+<meta charset="UTF-8">=
+<meta name="description"
+content="Just a page displaying skill
+,I suppose">
+<meta name="keywords"
+content="Startup,damn son">
 <Title> Start-up </title>
 <Style>
 body {
@@ -62,7 +67,7 @@ bottom: 0;
 <Body>
 Created 20/5/19
 <br>
-<br>
+<noscript>JavaScript Is Not Enabled On This Browser</noscript><br>
 <div class="first-div">
 Hmmmm<br>
 Yes<br>
