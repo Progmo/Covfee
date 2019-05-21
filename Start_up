@@ -1,4 +1,4 @@
-<!-- Worked on at 12 am on a shitty phone
+<!-- Worked on at 12 am on a crappy phone
 -->
 <!DOCTYPE HTML>
 <HTML Lang="en:us">
@@ -10,13 +10,38 @@ Font- family: Monospace, Verdana;
 Font-size: 16px;
 Color: Grey, black;
 Text-shadow: 20px red;
+Line-height: 1.0;
 }
+
+.first-div {
+	box-shadow: 1px 1px 5px 3px grey;
+}
+.crazy {
+font-family: sans-script;
+font-size: 20px;
+}
+
 </Style>
 </Head>
 <Body>
 Created 20/5/19
-<Br>
-<Footer> address=href="">
+<br>
+<br>
+<div class="first-div">
+Hmmmm<br>
+Yes<br>
+The floor is made out of<br>
+<p class="crazy"> <span style="color:red;">F</span> <span style="color:orange">L</span> <span style="color:yellow;">O</span> <span style="color:green;">O</span> <span style="color:blue;"> R</span> </p>
+</div>
+<br><Footer> 
+<address>
+Written by <a href="mailto:webmaster@example.com">Johnathon Doesworth</a>.<br> 
+Contact the creator:<br>
+Aplace.com<br>
+Box 666, A-land<br>
+USA
+</address>
+</footer>
 
 </Body>
 <HTML>
