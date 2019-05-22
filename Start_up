@@ -58,7 +58,7 @@ position: fixed;
 bottom: 0;
   right: 0;
   width: 200px;
-  border: 4px solid green;
+  border: 4px inset green;
   color: blue;
   background-color: grey;
 }
@@ -68,6 +68,9 @@ bottom: 0;
 Created 20/5/19
 <br>
 <noscript>JavaScript Is Not Enabled On This Browser</noscript><br>
+
+<img src="https://i.kym-cdn.com/photos/images/original/001/095/138/0f3.jpg" width="333" height="333" alt="Perfection">
+
 <div class="first-div">
 Hmmmm<br>
 Yes<br>
@@ -114,4 +117,4 @@ USA
 </footer>
 <p class="fixed"> Check us out <a href=""> here </a> </p>
 </body>
-<HTML>
+</html>
