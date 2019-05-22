@@ -11,15 +11,28 @@ content="Just a page displaying skill
 content="Startup,damn son">
 <Title> Start-up </title>
 <Style>
+
+
+@font-face {
+   font-family: Cutefont;
+link href= rel="stylesheet" "https://fonts.google.com/specimen/Stylish";
+    
+}
+
 body {
 background-color: rgb(153, 153, 142);
-Font- family: Monospace, Verdana;
+Font-family: Monospace, Verdana;
 Font-size: 16px;
 Color: Grey, black;
 Text-shadow: 20px red;
 Line-height: 1.0;
 }
 
+#fixed{
+ font-family:Stylish;   
+}
+
+}
 .first-div {
 	box-shadow: 1px 1px 5px 3px grey;
         background:dodger blue;
@@ -60,11 +73,11 @@ bottom: 0;
   width: 200px;
   border: 4px inset green;
   color: blue;
-  background-color: grey;
+  background-color: orange;
 }
 </Style>
 </Head>
-<Body>
+<Body onload="alert('Page Fully Loaded')">
 Created 20/5/19
 <br>
 <noscript>JavaScript Is Not Enabled On This Browser</noscript><br>
@@ -115,6 +128,6 @@ Box 666, A-land<br>
 USA
 </address>
 </footer>
-<p class="fixed"> Check us out <a href=""> here </a> </p>
+<p class="fixed" id="fixed"> Check us out <a href=""> here </a> </p>
 </body>
 </html>
