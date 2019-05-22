@@ -10,6 +10,14 @@ content="Just a page displaying skill
 <meta name="keywords"
 content="Startup,damn son">
 <Title> Start-up </title>
+function showkey(e) {
+var obj= ( navigator.appName ===
+ "Microsoft Internet Explorer") ? event : e ;
+ if( obj.keyCode == 89 || obj.keyCode === 121 )
+   alert ("WwWOoOWwW thx bruh");
+   }
+   document.onkeydown = showkey;
+
 <Style>
 
 
@@ -117,7 +125,7 @@ Malls are great places to shop; I can find everything I need under one roof.</h3
 
 <br><Footer> 
 <form action="/action_page.php">
-  <input type="text" name="rate-this-site" placeholder="Rate this site (optional)"><br>
+  <input type="text" name="rate-this-site" placeholder="Rate this site (optional)"> <br>
   <input type="submit" value="Submit">
 </form> 
 <address>
@@ -127,6 +135,9 @@ Aplace.com<br>
 Box 666, A-land<br>
 USA
 </address>
+<p> <kbd title="OMG JUST DO IT">Press X 
+<br> Just do it
+</kbd> </p>
 </footer>
 <p class="fixed" id="fixed"> Check us out <a href=""> here </a> </p>
 </body>
